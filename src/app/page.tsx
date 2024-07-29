@@ -47,28 +47,25 @@ export default function Home() {
   );
 
   return (
-    // <main className="flex min-h-screen flex-col justify-between">
-    <>
-      <Navigation currentPath={navigation} />
+    <main className="flex min-h-screen flex-col justify-between bg-dark-theme-2">
+      <>
+        <Navigation currentPath={navigation} />
 
-      <div className=" flex flex-col w-full">
-
-        <div className="flex flex-col items-center">
-          <img alt="logo" src={`https://gcdnb.pbrd.co/images/74MbLqKX2pSi.png?o=1`} />
-          <span>
-
-            <span className="pt-80">
-              <AnimatedText text="Crypto Like a Pro." />
+        <div className="absolute top-20 mx-auto flex flex-col w-full">
+          <div className="flex flex-col items-center">
+            <img alt="logo" src={`https://gcdnb.pbrd.co/images/74MbLqKX2pSi.png?o=1`} />
+            <span>
+              <span className="pt-80">
+                <AnimatedText text="Crypto Like a Pro." />
+              </span>
+              <CursorBlinker />
             </span>
-            <CursorBlinker />
-          </span>
-
-
+          </div>
         </div>
-      </div>
-    </>
-
-
-    // </main >
+        <div>
+          {/*  <img alt="our client" src={'https://media.licdn.com/dms/image/D4E03AQFW9Sp5Scyaww/profile-displayphoto-shrink_800_800/0/1704668408457?e=1727913600&v=beta&t=ku7bkdIxzTCpo-AphbNfV-WyK5NiJbQrJbSWh8ntHHc'} /> */}
+        </div>
+      </>
+    </main >
   );
 }

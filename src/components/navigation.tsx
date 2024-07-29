@@ -49,7 +49,7 @@ const Navigation = (props : NavigationProps) => {
                 <Link href="/">
                 <img
                       alt="ECHO"
-                      src="https://cdn.discordapp.com/attachments/907803366908903464/1263650447961493534/ECHOLOGO_proto_A.png?ex=669b01b0&is=6699b030&hm=b5757ab689eaa06372ecb95a90ab87e69648fd6bcab4a7475fcd2633e67ea31a&"
+                      src="https://gcdnb.pbrd.co/images/74MbLqKX2pSi.png?o=1"
                       className="h-8 w-auto"
                     />
                 </Link>
